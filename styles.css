@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.main-container{    
+    padding: 25px;
+    max-width: 8.5in;
+    width: 100%;
+    height: 11in;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+hr{
+    margin-top: 10px;
+    border: none;
+    border-top: 2.5px solid black;
+}
+
+.container{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    color: rgb(79, 78, 78);
+}
+
+.header p{
+    color: rgb(166, 164, 164);
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 2.5in;
+    word-wrap: break-word;
+}
+
+.first-container div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.first-container li{
+    list-style: none;
+}
+
+li, .degree, .score{
+    color: rgb(70, 69, 69);
+}
+
+.name, .title{
+    color: black;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(87, 86, 86);
+}
+
+.experience, .experience .project{
+    margin-bottom: 10px;
+}
+
+.skills ul{
+    margin-bottom: 5px;
+}
